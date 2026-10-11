@@ -1,0 +1,14 @@
+node_modules/
+
+.env
+__pycache__
+contracts/output
+
+
+contracts/*.fc
+contracts/*.fif
+contracts/*.boc
+contracts/*.ts
+contracts/*.pkg
+contracts/*.abi
+contracts/*.md
