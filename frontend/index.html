@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paxta NFT Market</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- TonConnect UI integratsiyasi -->
+    <script src="https://unpkg.com/@tonconnect/ui@latest/dist/tonconnect-ui.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Paxta NFT Market</h1>
+            <div id="ton-connect"></div>
+        </header>
+
+        <main>
+            <div class="tabs">
+                <button class="tab-btn active" onclick="showTab('buy')">Sotib olish</button>
+                <button class="tab-btn" onclick="showTab('sell')">Sotish</button>
+                <button class="tab-btn" onclick="showTab('deposit')">Depozit</button>
+                <button class="tab-btn" onclick="showTab('withdraw')">Yechib olish</button>
+            </div>
+
+            <div id="buy" class="tab-content active">
+                <h2>Bozordagi NFT lar</h2>
+                <div class="nft-grid">
+                    <!-- NFT elementlari dinamik ravishda qo'shiladi -->
+                    <div class="nft-card">
+                        <div class="nft-image placeholder">🖼️</div>
+                        <h3>Ajoyib NFT #1</h3>
+                        <p>Narxi: 10 GRAM</p>
+                        <button class="action-btn">Sotib olish</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="sell" class="tab-content">
+                <h2>Sizning NFT laringiz</h2>
+                <p>Sotuvga qo'yish uchun NFT ni tanlang va narxni kiriting.</p>
+                <!-- Form yoki ro'yxat bo'ladi -->
+            </div>
+
+            <div id="deposit" class="tab-content">
+                <h2>NFT Depozit qilish</h2>
+                <p>O'z hamyoningizdagi NFT ni market smart-kontraktiga yuboring.</p>
+                <button class="action-btn">Depozit boshlash</button>
+            </div>
+
+            <div id="withdraw" class="tab-content">
+                <h2>NFT Yechib olish</h2>
+                <p>Marketdagi o'zingizga tegishli NFT ni hamyonga qaytaring.</p>
+                <button class="action-btn">Yechib olishni boshlash</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

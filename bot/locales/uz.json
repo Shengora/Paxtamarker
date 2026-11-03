@@ -1,0 +1,12 @@
+{
+  "welcome": "Xush kelibsiz! NFT Marketga marhamat. Iltimos, bozorga kirish uchun tugmani bosing:",
+  "btn_open_app": "📱 Marketga kirish",
+  "btn_buy": "🛒 Sotib olish",
+  "btn_sell": "💰 Sotish",
+  "btn_deposit": "📥 Depozit qilish",
+  "btn_withdraw": "📤 Yechib olish",
+  "buy_text": "Siz 'Sotib olish' bo'limidasiz. O'zingizga yoqqan NFT ni tanlang va Gram (TON) orqali xarid qiling.",
+  "sell_text": "Siz 'Sotish' bo'limidasiz. Qaysi NFT ni sotmoqchisiz va qancha narxda?",
+  "deposit_text": "Siz 'Depozit qilish' bo'limidasiz. Marketga joylash uchun NFT ni yuboring.",
+  "withdraw_text": "Siz 'Yechib olish' bo'limidasiz. Qaysi NFT ni hamyoningizga qaytarib olmoqchisiz?"
+}

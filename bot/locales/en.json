@@ -1,0 +1,12 @@
+{
+  "welcome": "Welcome to the NFT Market! Please tap the button to open the market:",
+  "btn_open_app": "📱 Open Market",
+  "btn_buy": "🛒 Buy",
+  "btn_sell": "💰 Sell",
+  "btn_deposit": "📥 Deposit",
+  "btn_withdraw": "📤 Withdraw",
+  "buy_text": "You are in the 'Buy' section. Choose an NFT and purchase it using Gram (TON).",
+  "sell_text": "You are in the 'Sell' section. Which NFT would you like to sell and at what price?",
+  "deposit_text": "You are in the 'Deposit' section. Send your NFT to list it on the market.",
+  "withdraw_text": "You are in the 'Withdraw' section. Which NFT do you want to withdraw to your wallet?"
+}
